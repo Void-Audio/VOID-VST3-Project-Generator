@@ -29,7 +29,7 @@ Then the project generator will be in ROOT/build/Release/VST3_Project_Generator/
 
 From here it acts exactly like the old generator and even remembers your preferences/paths. Takes a lot longer to build but its worth it.  
 
-Definitely unlink or remove all the libraries you aren't using so you dont compile a ton of bloatware. If you really don't want something in the project, just folder from the \script\cmake\templates folder in the Project Generator, and then edit script\cmake\templates\vst3plugin_folder\CMakeLists.txt.in to remove the linking to the associated libary, then rebuild the Project Generator.
+Definitely unlink or remove all the libraries you aren't using so you dont compile a ton of bloatware. If you really don't want something in the project, just delete the folder from the \script\cmake\templates in the Project Generator Root, then edit script\cmake\templates\vst3plugin_folder\CMakeLists.txt.in to remove the linking to the associated libary, then rebuild the Project Generator.
 
 
 ## LicenseSpring Notes

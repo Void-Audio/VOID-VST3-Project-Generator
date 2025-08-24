@@ -46,10 +46,10 @@ vcpkg install curl openssl:x64-windows
 vcpkg integrate install
 ```
 You can now use.
-
+```
 find_package(CURL REQUIRED)
 find_package(OpenSSL REQUIRED)
-
+```
 to find the libraries in your CMakeLists.txt. 
 
 yubico-piv-tool is a bit more tedious. You can download the windows binary directly (https://developers.yubico.com/yubico-piv-tool/Releases/) or follow the steps here (https://developers.yubico.com/yubico-piv-tool/).

@@ -8,7 +8,7 @@ Windows+VSCode
 
 * Project now builds with a .vscode folder with tasks.json to clean+compile+build and launch.json to debug (set up for ableton)
 * Sets up a bypass parameter and demonstrates the complete logic for adding more
-* Manages setting bus arangements manually and exposes params not available at initiate
+* Manages setting bus arangements manually and exposes params not available at initialize
 * Includes the following tools, *should* compile properly:
     * FFTW64 (https://www.fftw.org/)
     * DSP Filters (details: https://github.com/vinniefalco/DSPFilters)

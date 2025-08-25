@@ -12,7 +12,7 @@ Windows+VSCode
 * Includes the following tools, *should* compile properly:
     * FFTW64 (https://www.fftw.org/)
     * DSP Filters (details: https://github.com/vinniefalco/DSPFilters)
-* Includes basic C++ .gitignore which prevents the LicenseSpring VST SDK from pushing as its OS/configuration dependent. Simply download the corresponding SDK from https://docs.licensespring.com/sdks/cpp if the one here isn't correct. In my code, it is LicenseSpringCppSDK-v7.41.0-VC142.zip.
+* Includes basic C++ .gitignore which prevents the LicenseSpring SDK from pushing as its OS/configuration dependent. Simply download the corresponding SDK from https://docs.licensespring.com/sdks/cpp if the one here isn't correct. In my code, it is LicenseSpringCppSDK-v7.41.0-VC142.zip.
 * LicenseSpring tools can be found in the LicenseSpring-Tutorials folder and implimenting them is extremely straightforwards (details: https://github.com/kbrandon17/LicenseSpring-SampleProjects)
 * Editor is overrided to give control
 * EditorDelegate allows for deep UI control and allows listeners to be applied to UI objects created from editor.uidesc
